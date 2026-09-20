@@ -1,0 +1,8 @@
+benchmark,benchmark_label,action_regime,topology_noise_projection,interval_probability,support_points,seeds,sdta_blocks_mean,sdta_blocks_min,sdta_blocks_max,independent_blocks,finegrid_cells,tile_cells,random_cells,grid_to_sdta,frontier_edges_mean,main_partition_seconds_mean,independent_partition_seconds,absorption_seconds_mean
+stochastic_braking_car,BrakingCar,finite-action,exact-discrete-slip,1.0,,10,6,6,6,6,64,16,16,10.6666666666667,29.1,0.185725060012192,0.265636600088328,7.97866606002208
+stochastic_point_mass,PointMass,finite-action,exact-discrete-slip,1.0,,10,5,5,5,5,64,16,16,12.8,34.8,0.0925409599673003,0.259676299989223,6.19228331998456
+stochastic_double_integrator_parking,DoubleIntegrator,finite-action,exact-discrete-slip,1.0,,10,6,6,6,6,64,16,16,10.6666666666667,26.9,0.135602660034783,0.262788400053978,3.26786205004901
+stochastic_continuous_braking_car,Cont. BrakingCar,continuous-action,bounded-ksigma-representative,0.9544997361036417,3,10,26,26,26,26,64,16,16,2.46153846153846,294.7,16.2064346299972,17.8062103001866,26.0027058300562
+stochastic_pendulum_swing_up,Pendulum,continuous-action,bounded-ksigma-representative,0.9544997361036417,3,10,5,5,5,5,64,16,16,12.8,44.9,0.10738462000154,0.163574900012463,2.1260057099862
+stochastic_continuous_point_mass,Cont. PointMass,continuous-action,bounded-ksigma-representative,0.9544997361036417,3,10,135,135,135,135,64,16,16,0.474074074074074,3964.9,23.3177662400296,23.6124197000172,206.715784129989
+stochastic_continuous_double_integrator_parking,Cont. DoubleIntegrator,continuous-action,bounded-ksigma-representative,0.9544997361036417,3,10,6,6,6,6,64,16,16,10.6666666666667,40.5,0.145095540001057,0.17699269996956,5.87767138998024

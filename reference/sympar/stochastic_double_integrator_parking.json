@@ -1,0 +1,95 @@
+{
+  "benchmark": "stochastic_double_integrator_parking",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "training_episodes": 20000,
+  "evaluation_episodes": 20,
+  "max_steps": 120,
+  "alpha": 0.1,
+  "gamma": 1.0,
+  "epsilon0": 1.0,
+  "epsilon_decay_factor": 0.99,
+  "min_exploration": 1e-05,
+  "reward_mode": "matched-cost",
+  "success_bonus": 1000.0,
+  "potential_scale": 10.0,
+  "partition_variant": "control-refined",
+  "training_initialization": "mixed-witness",
+  "transition_regime": "stochastic",
+  "slip_probability": 0.1,
+  "stochastic_training_backend": "official symsim Randomized2.coin/oneOf",
+  "upstream_record": "https://doi.org/10.5281/zenodo.14620119",
+  "upstream_symsim_sha256": "7f1de2124ecadf71e130d16c0105f58775278eeeeeead1beec6a505ed99908b9",
+  "upstream_project_sha256": "304fa558b84962792af06fd308ccc425a42837c0860458818aa2dc729da38eff",
+  "adapter_source_sha256": "e7b1e152625f93518f79a8869cc5500d6311f98a73a85ba4b34991bee45547a5",
+  "experiment_source_sha256": "e0ba996231c8e7cbbd7a17c49ffc9d1781b49f963ee4d1a6932029320d26b8e2",
+  "partition_blocks": 14,
+  "partition_witnesses": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -0.08
+    ],
+    [
+      -0.08,
+      0.0
+    ],
+    [
+      -0.08,
+      -0.08
+    ],
+    [
+      -1.25,
+      -1.1
+    ],
+    [
+      -1.25,
+      1.08
+    ],
+    [
+      -0.27,
+      -0.1
+    ],
+    [
+      1.25,
+      1.1
+    ],
+    [
+      0.27,
+      0.1
+    ],
+    [
+      1.25,
+      -1.08
+    ],
+    [
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      -0.25
+    ],
+    [
+      -0.25,
+      0.25
+    ],
+    [
+      -0.25,
+      -0.25
+    ]
+  ]
+}

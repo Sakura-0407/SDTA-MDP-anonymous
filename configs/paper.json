@@ -1,0 +1,44 @@
+{
+  "absorption_horizon": 80,
+  "absorption_samples": 32,
+  "benchmarks": [
+    "stochastic_braking_car",
+    "stochastic_point_mass",
+    "stochastic_double_integrator_parking",
+    "stochastic_continuous_braking_car",
+    "stochastic_pendulum_swing_up",
+    "stochastic_continuous_point_mass",
+    "stochastic_continuous_double_integrator_parking"
+  ],
+  "continuous_noise_fraction": 0.05,
+  "episodes": 20,
+  "frontier_mode": "sampled",
+  "gaussian_support_points": 3,
+  "gaussian_support_probability": 0.9544997361036417,
+  "gaussian_support_sigma": 2.0,
+  "methods": [
+    "SDTA-MDP",
+    "MPC",
+    "FineGridVI",
+    "TileQ"
+  ],
+  "project_stochastic_paths": true,
+  "scope": "main",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "slip_probability": 0.1,
+  "support_aware_control": true,
+  "grid_bins": 8,
+  "mpc_horizon": 6,
+  "mpc_scenarios": 8
+}

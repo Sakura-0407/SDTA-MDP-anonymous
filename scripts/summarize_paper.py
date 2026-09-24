@@ -91,9 +91,9 @@ def main():
     p.add_argument('--figure',action='store_true')
     args=p.parse_args();args.out_dir.mkdir(parents=True,exist_ok=True)
     rows=read(args.reference_dir/'main.csv')
-    expected={(b,m,s) for b in TASKS for m in (['SDTA-MDP','MPC','FineGridVI','TileQ']+(['SymPar-Q-Upstream'] if b in TASKS[:3] else [])) for s in range(10)}
+    expected={(b,m,s) for b in TASKS for m in (['SDTA-MDP','MPC','FineGridVI','TileQ']+(['SymPar-Q-Upstream'] if b in TASKS[:3] else ['SMoSE','SAC'])) for s in range(10)}
     observed={(r['benchmark'],r['method'],int(r['seed'])) for r in rows}
-    if observed!=expected or len(rows)!=len(expected):raise ValueError('The reference main study must contain exactly 310 unique records.')
+    if observed!=expected or len(rows)!=len(expected):raise ValueError('The reference main study must contain exactly 390 unique records.')
     summary=summarize(rows);write(args.out_dir/'main_summary.csv',summary)
     write(args.out_dir/'lookahead_summary.csv',summarize(read(args.reference_dir/'lookahead_ablation.csv')))
     write(args.out_dir/'partition_scaling.csv',scaling(read(args.reference_dir/'partition_sizes.csv')))

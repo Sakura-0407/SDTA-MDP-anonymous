@@ -1,12 +1,10 @@
 # SDTA-MDP
 
-Anonymous code and experiment artifact for **Symbolic Distributed Time
-Aggregation for White-Box Continuous Control**.
+Anonymous code and experiment artifact for **SDTA-MDP: Symbolic Distributed Time Aggregation for Continuous Control**.
 
 This repository contains the algorithm, the seven stochastic benchmarks, the
 baselines and analyses used in the accompanying manuscript, and the recorded
-results underlying its tables. It is a fresh source snapshot with no development
-history. Manuscript sources, internal reviews, tests, pilot studies, and
+results underlying its tables. It is a curated source snapshot with anonymous release updates. Manuscript sources, internal reviews, tests, pilot studies, and
 experiments outside the manuscript are excluded.
 
 ## Install
@@ -22,7 +20,7 @@ python -m pip install --no-deps -e .
 
 On Windows, `py` can replace `python`. The core algorithm needs NumPy and Z3.
 Matplotlib is used only for the optional experiment figure. All reported
-experiments ran on CPU; no CUDA or deep-RL framework is required.
+experiments ran on CPU. SAC and SMoSE additionally require PyTorch; see below.
 
 ## Reproduce the recorded tables
 
@@ -32,9 +30,9 @@ python scripts/summarize_paper.py
 python scripts/summarize_paper.py --figure
 ```
 
-Outputs go to `generated/`. The supplied main records contain exactly **310**
-task-method-seed entries: four methods on seven tasks, plus SymPar+Q on three
-finite-action tasks, all over ten seeds. The lookahead data contain **80**
+Outputs go to `generated/`. The supplied main records contain exactly **390**
+records: four methods on seven tasks, SymPar+Q on three finite-action tasks,
+and SAC and SMoSE on four continuous-action tasks, all over ten seeds. The lookahead data contain **80**
 entries: two variants on four continuous-action tasks, over ten seeds.
 
 The main CSV intentionally preserves the paper's provenance: control statistics
@@ -86,7 +84,7 @@ directory after changing code or settings. Fresh results are written under
 
 | Component | Implementation |
 |---|---|
-| White-box transition/cost interfaces and seven task definitions | `environment.py`, `continuous_environments.py`, `benchmarks.py` |
+| Executable transition/cost interfaces and seven task definitions | `environment.py`, `continuous_environments.py`, `benchmarks.py` |
 | Execution noise and disturbance-projected path predicates | `stochastic_environments.py` |
 | SMT-pruned path-signature blocks and frontier support | `symbolic.py` |
 | Stopped absorption rollouts: cost, holding time, successor distribution | `absorption.py` |
@@ -113,3 +111,28 @@ the source snapshot, reconstructing manuscript table values, and running small
 execution checks. These checks establish package integrity; they are not a new
 ten-seed replication of every experiment. See
 [VALIDATION.md](docs/VALIDATION.md) for the exact verification scope.
+
+## SAC and SMoSE comparisons
+
+The release includes 80 frozen final actors, 40 main evaluation input sets,
+per-episode results, and the training and evaluation adapters. To reproduce the
+learned-policy results without retraining:
+
+```bash
+python -m pip install -r requirements-learned.txt
+python scripts/setup_learned.py
+python scripts/learned/evaluate_recorded.py
+```
+
+For a fresh fixed-budget training run (the supervisor uses Windows file locks):
+
+```powershell
+python scripts/learned/run.py init
+python scripts/learned/run.py supervise --workers 2
+python scripts/learned/evaluate_recorded.py --checkpoint-dir runs/learned/jobs
+```
+
+Each run uses 100,000 interactions, including 10,000 random warmup actions.
+The main comparison always uses the final policy. Training diagnostics use a
+separate archived input set; `evaluate_recorded.py` applies the original main
+experiment reset protocol. Read [the learned-baseline protocol](docs/LEARNED_BASELINES.md).

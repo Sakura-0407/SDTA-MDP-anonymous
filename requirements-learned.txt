@@ -1,0 +1,5 @@
+-r requirements.txt
+torch==2.12.0
+gymnasium==1.2.3
+stable-baselines3==2.8.0
+PyYAML==6.0.3

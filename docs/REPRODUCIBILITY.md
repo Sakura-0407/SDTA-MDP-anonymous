@@ -2,7 +2,7 @@
 
 ## Recorded data
 
-- `reference/main.csv`: 310 original task-method-seed observations, with model
+- `reference/main.csv`: 390 observations (310 prior records plus 80 SAC/SMoSE records), with model
   counts assembled using the exact convention used in the manuscript.
 - `reference/sdta_complete_counts.csv`: the 70 SDTA replay records used for
   complete preparation plus online model-call totals.
@@ -80,3 +80,5 @@ is a different statistic.
 It does not invent empirical first-exit edges; those require absorption runs.
 Reference geometric scaling and full main control/runtime summaries can be
 regenerated without rerunning the expensive experiments.
+
+For SAC and SMoSE training, frozen actors, and the main evaluation protocol, see [LEARNED_BASELINES.md](LEARNED_BASELINES.md).

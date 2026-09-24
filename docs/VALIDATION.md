@@ -34,3 +34,17 @@ replay differences and counting conventions are documented in
 
 Internal checking scripts, temporary logs, and smoke-run outputs are deliberately
 not part of this publication repository.
+
+## SAC and SMoSE release update
+
+The added 80 final policies were evaluated over 1,600 episodes. All 80 results
+matched the recorded metrics and the original evaluator. The 40 reconstructed
+main input sets matched the archived inputs exactly. All 32 numeric cells in
+the current continuous-action main table were reconstructed from the 390-row
+CSV. The prior 310 observations were preserved field-for-field.
+
+Five execution checks passed: checkpoint/resume for both methods, evaluation
+RNG isolation and transition replay, fixed paired inputs, all eight task/method
+interfaces, and all forty diagnostic input sets. The training, checkpoint, and
+evaluation kernels were compared structurally with the experiment source.
+These checks do not constitute a fresh 100,000-step retraining of 80 policies.

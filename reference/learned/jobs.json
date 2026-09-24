@@ -1,0 +1,722 @@
+[
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s0",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 0,
+    "training_seed": 3154326823,
+    "input_sha": "63a68bd2a2805e4f374ca2f5947bb5e2a63cee67de2819e24351bd8743ecb832",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s0",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 0,
+    "training_seed": 3154326823,
+    "input_sha": "63a68bd2a2805e4f374ca2f5947bb5e2a63cee67de2819e24351bd8743ecb832",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s0",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 0,
+    "training_seed": 2068607006,
+    "input_sha": "264e165bcb7a4fc18d955bffa761b7902d951aa5c10aa598f5c0c6d3e36c7655",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s0",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 0,
+    "training_seed": 2068607006,
+    "input_sha": "264e165bcb7a4fc18d955bffa761b7902d951aa5c10aa598f5c0c6d3e36c7655",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s0",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 0,
+    "training_seed": 1868408799,
+    "input_sha": "dca9a20638fb0edce3e203ad6845b51fa570786209c1982f29c55de639bcb8dc",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s0",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 0,
+    "training_seed": 1868408799,
+    "input_sha": "dca9a20638fb0edce3e203ad6845b51fa570786209c1982f29c55de639bcb8dc",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s0",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 0,
+    "training_seed": 782173805,
+    "input_sha": "a438139180608cc2d55fa9ba93a35ebd8a7df2c22c2e7067898a976b2b471de6",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s0",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 0,
+    "training_seed": 782173805,
+    "input_sha": "a438139180608cc2d55fa9ba93a35ebd8a7df2c22c2e7067898a976b2b471de6",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_0\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s1",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 1,
+    "training_seed": 3011105595,
+    "input_sha": "1f50847302325e0f4b0f00d28d5dc226d9b00c22e8cc32fbfbdc1f0eb8b6a256",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s1",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 1,
+    "training_seed": 3011105595,
+    "input_sha": "1f50847302325e0f4b0f00d28d5dc226d9b00c22e8cc32fbfbdc1f0eb8b6a256",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s1",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 1,
+    "training_seed": 1710283995,
+    "input_sha": "0fee19b89279b90d1357103f0782783bcb6ed0fd72af41d393229fcaba714c41",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s1",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 1,
+    "training_seed": 1710283995,
+    "input_sha": "0fee19b89279b90d1357103f0782783bcb6ed0fd72af41d393229fcaba714c41",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s1",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 1,
+    "training_seed": 2915411092,
+    "input_sha": "96adf5647ef3080dca528f3d527a33df0955e377e557e226a13d233490165451",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s1",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 1,
+    "training_seed": 2915411092,
+    "input_sha": "96adf5647ef3080dca528f3d527a33df0955e377e557e226a13d233490165451",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s1",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 1,
+    "training_seed": 944672687,
+    "input_sha": "c773aba0ed14db5f81a41782fcdcd50ea2ee3fe0c75f9895872009f97afeb5b4",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s1",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 1,
+    "training_seed": 944672687,
+    "input_sha": "c773aba0ed14db5f81a41782fcdcd50ea2ee3fe0c75f9895872009f97afeb5b4",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_1\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s2",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 2,
+    "training_seed": 1222031267,
+    "input_sha": "cd9adaa608026b46a79464ab5fa2afbcaead0a3f369ed8600e1cdd7af13bd378",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s2",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 2,
+    "training_seed": 1222031267,
+    "input_sha": "cd9adaa608026b46a79464ab5fa2afbcaead0a3f369ed8600e1cdd7af13bd378",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s2",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 2,
+    "training_seed": 1778083160,
+    "input_sha": "568f6d81aafc0ed79282f82600c143ea38c80e124db479d3061529e2860f2e1a",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s2",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 2,
+    "training_seed": 1778083160,
+    "input_sha": "568f6d81aafc0ed79282f82600c143ea38c80e124db479d3061529e2860f2e1a",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s2",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 2,
+    "training_seed": 1649467688,
+    "input_sha": "658a4e35cf7e05b9a4cdfde64666fd398e676c19af43d535da024a239483b445",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s2",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 2,
+    "training_seed": 1649467688,
+    "input_sha": "658a4e35cf7e05b9a4cdfde64666fd398e676c19af43d535da024a239483b445",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s2",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 2,
+    "training_seed": 3152851514,
+    "input_sha": "d377f08bdac790e93e05983f80905c20bdb125a8873c30db0f1eb8d4d0148f43",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s2",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 2,
+    "training_seed": 3152851514,
+    "input_sha": "d377f08bdac790e93e05983f80905c20bdb125a8873c30db0f1eb8d4d0148f43",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_2\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s3",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 3,
+    "training_seed": 1268009846,
+    "input_sha": "cca47ef3b303c8af7f72082353799ad53579768219f7bbc57c99160cb60d6c3c",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s3",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 3,
+    "training_seed": 1268009846,
+    "input_sha": "cca47ef3b303c8af7f72082353799ad53579768219f7bbc57c99160cb60d6c3c",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s3",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 3,
+    "training_seed": 808938004,
+    "input_sha": "57a4fde3b3bc608c4e44996c5810fed66e60c1166a4a8ec7e48f0637bf033021",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s3",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 3,
+    "training_seed": 808938004,
+    "input_sha": "57a4fde3b3bc608c4e44996c5810fed66e60c1166a4a8ec7e48f0637bf033021",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s3",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 3,
+    "training_seed": 179556983,
+    "input_sha": "55aac9bdd52a6292e0287c719b8460b8a0684dd5273e1b4d5314bf29e567f1d3",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s3",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 3,
+    "training_seed": 179556983,
+    "input_sha": "55aac9bdd52a6292e0287c719b8460b8a0684dd5273e1b4d5314bf29e567f1d3",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s3",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 3,
+    "training_seed": 781338261,
+    "input_sha": "831d276597510ba6427b4ddcd8f8a94c1803ed3bdcf13e6b6541804c55080786",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s3",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 3,
+    "training_seed": 781338261,
+    "input_sha": "831d276597510ba6427b4ddcd8f8a94c1803ed3bdcf13e6b6541804c55080786",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_3\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s4",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 4,
+    "training_seed": 2614514776,
+    "input_sha": "8b883ca59675f63a3a9d0046384f845551bff4c9c454fd20a2f78a4b232629a2",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s4",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 4,
+    "training_seed": 2614514776,
+    "input_sha": "8b883ca59675f63a3a9d0046384f845551bff4c9c454fd20a2f78a4b232629a2",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s4",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 4,
+    "training_seed": 1539684012,
+    "input_sha": "542cedaaf015b0bff9fd102f1fd49b8c8f7497e6d59acdee01d37b8573e2bc72",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s4",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 4,
+    "training_seed": 1539684012,
+    "input_sha": "542cedaaf015b0bff9fd102f1fd49b8c8f7497e6d59acdee01d37b8573e2bc72",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s4",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 4,
+    "training_seed": 3988958430,
+    "input_sha": "fd2cbbcf33ac83b4b0c9fbbf8f8b4d0e9812e198233dc9fa6f1955099af9c441",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s4",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 4,
+    "training_seed": 3988958430,
+    "input_sha": "fd2cbbcf33ac83b4b0c9fbbf8f8b4d0e9812e198233dc9fa6f1955099af9c441",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s4",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 4,
+    "training_seed": 2058224128,
+    "input_sha": "576d38e48451436c4bd71fe53178001557dbdf3668c91382a0ce0c439b93e491",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s4",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 4,
+    "training_seed": 2058224128,
+    "input_sha": "576d38e48451436c4bd71fe53178001557dbdf3668c91382a0ce0c439b93e491",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_4\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s5",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 5,
+    "training_seed": 3547240565,
+    "input_sha": "9c8dcba74314af8d53f26eb8c712fc618c47e42bad7dd27b08a15bef067e1f25",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s5",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 5,
+    "training_seed": 3547240565,
+    "input_sha": "9c8dcba74314af8d53f26eb8c712fc618c47e42bad7dd27b08a15bef067e1f25",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s5",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 5,
+    "training_seed": 3146439105,
+    "input_sha": "e7a10d29ed1fe79219e18d5ca99f1f1758f25b572533bfa9a49c00e772f10117",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s5",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 5,
+    "training_seed": 3146439105,
+    "input_sha": "e7a10d29ed1fe79219e18d5ca99f1f1758f25b572533bfa9a49c00e772f10117",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s5",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 5,
+    "training_seed": 636166008,
+    "input_sha": "09f98de92f2b741d88ee50e420c96b69e4a7174544cb004d54c9c672cc2cbca4",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s5",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 5,
+    "training_seed": 636166008,
+    "input_sha": "09f98de92f2b741d88ee50e420c96b69e4a7174544cb004d54c9c672cc2cbca4",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s5",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 5,
+    "training_seed": 2818396305,
+    "input_sha": "fd7cb2526857583ed4e15461cd7ee92756d0a80b4105a3f8423281124020bafc",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s5",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 5,
+    "training_seed": 2818396305,
+    "input_sha": "fd7cb2526857583ed4e15461cd7ee92756d0a80b4105a3f8423281124020bafc",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_5\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s6",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 6,
+    "training_seed": 1144614002,
+    "input_sha": "8be8a764bbaf39c9863c1099c315a7c3b0c7037097bc5976036d52288f10803e",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s6",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 6,
+    "training_seed": 1144614002,
+    "input_sha": "8be8a764bbaf39c9863c1099c315a7c3b0c7037097bc5976036d52288f10803e",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s6",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 6,
+    "training_seed": 3128412464,
+    "input_sha": "977b1eb630182a4f2a196b7a4c86b2bae033eb9198fee42abe71f038bc359ebb",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s6",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 6,
+    "training_seed": 3128412464,
+    "input_sha": "977b1eb630182a4f2a196b7a4c86b2bae033eb9198fee42abe71f038bc359ebb",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s6",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 6,
+    "training_seed": 1645462871,
+    "input_sha": "e17550b7a3506449b0f529336356448be227cee1a26e778cec33b4633b5156c0",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s6",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 6,
+    "training_seed": 1645462871,
+    "input_sha": "e17550b7a3506449b0f529336356448be227cee1a26e778cec33b4633b5156c0",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s6",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 6,
+    "training_seed": 2078190806,
+    "input_sha": "0b992be5d09ece12eb1854cfcdd6e76b063069dba2c77fd9856dc1427d8307d8",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s6",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 6,
+    "training_seed": 2078190806,
+    "input_sha": "0b992be5d09ece12eb1854cfcdd6e76b063069dba2c77fd9856dc1427d8307d8",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_6\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s7",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 7,
+    "training_seed": 4237990790,
+    "input_sha": "e27a2cc887862974d88acda7d6863097e4cec48defa1d4d3d1288e1a6206ec2d",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s7",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 7,
+    "training_seed": 4237990790,
+    "input_sha": "e27a2cc887862974d88acda7d6863097e4cec48defa1d4d3d1288e1a6206ec2d",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s7",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 7,
+    "training_seed": 512706228,
+    "input_sha": "9aa34bb636c1d9f175f25f9b26480d4494f6ebf31c2def215c51f603ac331855",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s7",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 7,
+    "training_seed": 512706228,
+    "input_sha": "9aa34bb636c1d9f175f25f9b26480d4494f6ebf31c2def215c51f603ac331855",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s7",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 7,
+    "training_seed": 3130216069,
+    "input_sha": "df26a22afa6690370627b7a9c722c9dab5e2f56fb57079e71b006926f799538e",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s7",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 7,
+    "training_seed": 3130216069,
+    "input_sha": "df26a22afa6690370627b7a9c722c9dab5e2f56fb57079e71b006926f799538e",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s7",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 7,
+    "training_seed": 766162721,
+    "input_sha": "34c11cd0899f2b3ce83be950c8ab379e2185b414b6c93db514c4332caa93b274",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s7",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 7,
+    "training_seed": 766162721,
+    "input_sha": "34c11cd0899f2b3ce83be950c8ab379e2185b414b6c93db514c4332caa93b274",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_7\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s8",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 8,
+    "training_seed": 3615327053,
+    "input_sha": "c0eb3e9d8e9763ba56b1ba17081b9142f49e6523869d92a4e509e6e25f24aa0e",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s8",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 8,
+    "training_seed": 3615327053,
+    "input_sha": "c0eb3e9d8e9763ba56b1ba17081b9142f49e6523869d92a4e509e6e25f24aa0e",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s8",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 8,
+    "training_seed": 922994917,
+    "input_sha": "45dff8a800ffb6ec77995e9f0a76e2883778673656732eaf3b2d03f88c4f7a54",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s8",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 8,
+    "training_seed": 922994917,
+    "input_sha": "45dff8a800ffb6ec77995e9f0a76e2883778673656732eaf3b2d03f88c4f7a54",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s8",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 8,
+    "training_seed": 3757732403,
+    "input_sha": "522a19d05a8a644c0858f7a099c6a798bc20226a8e4e5028fd053199e4ac79bb",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s8",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 8,
+    "training_seed": 3757732403,
+    "input_sha": "522a19d05a8a644c0858f7a099c6a798bc20226a8e4e5028fd053199e4ac79bb",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s8",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 8,
+    "training_seed": 1985140763,
+    "input_sha": "d27baf06caf71d424a65323229a411452560dd3eb6785933915548a5e483ae04",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s8",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 8,
+    "training_seed": 1985140763,
+    "input_sha": "d27baf06caf71d424a65323229a411452560dd3eb6785933915548a5e483ae04",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_8\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SMoSE_s9",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SMoSE",
+    "seed": 9,
+    "training_seed": 2258736288,
+    "input_sha": "98ab51c8d65449367878e16aea9df851ff64a24d04b049f658f0d077a7fd4d49",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_braking_car_SAC_s9",
+    "task": "stochastic_continuous_braking_car",
+    "method": "SAC",
+    "seed": 9,
+    "training_seed": 2258736288,
+    "input_sha": "98ab51c8d65449367878e16aea9df851ff64a24d04b049f658f0d077a7fd4d49",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_braking_car_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SMoSE_s9",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SMoSE",
+    "seed": 9,
+    "training_seed": 747319913,
+    "input_sha": "74121872a6d6e93280041fc83940d45323048fb5fbb2ca84db57261a32c10979",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_pendulum_swing_up_SAC_s9",
+    "task": "stochastic_pendulum_swing_up",
+    "method": "SAC",
+    "seed": 9,
+    "training_seed": 747319913,
+    "input_sha": "74121872a6d6e93280041fc83940d45323048fb5fbb2ca84db57261a32c10979",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_pendulum_swing_up_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SMoSE_s9",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SMoSE",
+    "seed": 9,
+    "training_seed": 3156501480,
+    "input_sha": "23d4d211fc54ec19c645bb0d85c524a831c38cb311b30979d924eab0d5e86bce",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_point_mass_SAC_s9",
+    "task": "stochastic_continuous_point_mass",
+    "method": "SAC",
+    "seed": 9,
+    "training_seed": 3156501480,
+    "input_sha": "23d4d211fc54ec19c645bb0d85c524a831c38cb311b30979d924eab0d5e86bce",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_point_mass_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SMoSE_s9",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SMoSE",
+    "seed": 9,
+    "training_seed": 3446663941,
+    "input_sha": "760b7414ce714804a7e0046db074aa79cf501e94441b7c48b9e87cb79b2e4d64",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_9\\eval_inputs.npz"
+  },
+  {
+    "id": "stochastic_continuous_double_integrator_parking_SAC_s9",
+    "task": "stochastic_continuous_double_integrator_parking",
+    "method": "SAC",
+    "seed": 9,
+    "training_seed": 3446663941,
+    "input_sha": "760b7414ce714804a7e0046db074aa79cf501e94441b7c48b9e87cb79b2e4d64",
+    "input_source": "results\\five_part_validation_20260917\\stochastic_continuous_double_integrator_parking_9\\eval_inputs.npz"
+  }
+]

@@ -16,7 +16,7 @@ runner accepts only the seven stochastic tasks.
 ## Retained evidence
 
 - Main stochastic control comparison: SDTA-MDP, MPC, FineGridVI, TileQ, and
-  upstream SymPar+Q on the three applicable finite-action tasks.
+  upstream SymPar+Q on the three applicable finite-action tasks, plus SAC and SMoSE on four continuous-action tasks.
 - Local lookahead ablation on the four continuous-action tasks.
 - Symbolic block sizes, independent partition reconstruction, empirical
   first-exit edge counts, and geometric partition scaling.
@@ -28,11 +28,11 @@ runner accepts only the seven stochastic tasks.
 
 Unit/integration tests, smoke outputs, internal manuscript audits, revision
 history, paper LaTeX/PDF files, translations, private notes, IDE configuration,
-virtual environments, caches, logs, checkpoints, and the original Git history
+virtual environments, caches, logs, full replay/optimizer checkpoints, and the original Git history
 are not part of this release.
 
 The registry and environment modules exclude both MountainCar tasks, separate
-wind-transition tasks, and large-maze scaling tasks. Deep-RL implementations,
+wind-transition tasks, and large-maze scaling tasks. Unrelated deep-RL studies,
 strong-MPC diagnostics, internal Python SymPar-Q approximations, standalone
 random-policy/grid-partition control experiments, broad legacy launchers, and
 later exploratory studies are also excluded.
@@ -54,3 +54,5 @@ The SymPar adapter was narrowed to three tasks and its defaults set to the
 recorded protocol. Its reported `model_calls` is the training count, with
 evaluation-transition counts retained in a separate column, matching the
 manuscript's accounting convention.
+
+The learned-baseline extension includes compact final actor weights and obtains the pinned upstream SAC/SMoSE implementation separately.

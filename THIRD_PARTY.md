@@ -30,3 +30,14 @@ Keep the upstream artifact's `LICENSE.txt` and attribution with any local copy.
 The adapter uses Scala CLI, Scala 3.3.0, and the dependency declarations in
 `project.scala`. JPF/SPF discovery is excluded from this particular comparison;
 the control-refined partitions are supplied by the adapter.
+
+
+## SAC and SMoSE
+
+Both baselines use the original [SMoSE repository](https://github.com/vinczematyas/SMoSE),
+revision `ae2a1a875193bf121ef1b35038994a8d899343b7`, by Matyas Vincze and coauthors.
+`scripts/setup_learned.py` obtains and checksum-verifies `src/sac.py` and
+`config/reacher.yml` from that repository; these third-party source files are
+not redistributed here. PyTorch, Gymnasium, Stable-Baselines3, and PyYAML retain
+their respective licenses. The local training and environment adapters use
+the unmodified upstream actor, critic, and SAC update routines.
